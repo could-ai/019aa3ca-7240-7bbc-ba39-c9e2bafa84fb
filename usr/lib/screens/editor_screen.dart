@@ -39,7 +39,7 @@ class _EditorScreenState extends State<EditorScreen> {
                 const SizedBox(height: 20),
                 _buildToolItem(Icons.text_fields, 'Text'),
                 _buildToolItem(Icons.image, 'Image'),
-                _buildToolItem(Icons.shapes, 'Shapes'),
+                _buildToolItem(Icons.category, 'Shapes'), // Replaced Icons.shapes with Icons.category
                 _buildToolItem(Icons.auto_awesome, 'AI'),
                 _buildToolItem(Icons.layers, texts.get('layers')),
                 const Spacer(),
